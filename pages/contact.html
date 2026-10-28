@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Hindware Premium - Book a showroom appointment, request a quote, or speak with our design consultants. Experience centers in Mumbai, Delhi, and Bangalore.">
+    <title>Contact Us | Hindware Premium</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/animations.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo" aria-label="Hindware Premium Home">
+                <svg class="logo-icon" viewBox="0 0 60 60" aria-hidden="true">
+                    <path d="M30 5L10 20v20l20 15 20-15V20L30 5zm0 5.5L46 17.5V35l-16 12-16-12V17.5L30 10.5z" fill="none" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="30" cy="30" r="6" fill="currentColor"/>
+                </svg>
+                <span class="logo-text">Hindware <span class="logo-premium">Premium</span></span>
+            </a>
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-links">
+                    <li><a href="../index.html" class="nav-link" data-page="home">Home</a></li>
+                    <li><a href="showers.html" class="nav-link" data-page="showers">Showers</a></li>
+                    <li><a href="collections.html" class="nav-link" data-page="collections">Collections</a></li>
+                    <li><a href="textiles.html" class="nav-link" data-page="textiles">Bath Textiles</a></li>
+                    <li><a href="inspiration.html" class="nav-link" data-page="inspiration">Inspiration</a></li>
+                    <li><a href="contact.html" class="nav-link active" data-page="contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-actions">
+                <a href="catalog.html" class="btn btn-outline">Catalog</a>
+                <a href="contact.html" class="btn btn-primary">Book Consultation</a>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span class="hamburger"></span></button>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <header class="page-hero">
+            <div class="page-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&q=80')"></div>
+            <div class="page-hero-overlay"></div>
+            <div class="container">
+                <div class="page-hero-content reveal">
+                    <span class="page-hero-tag">Get in Touch</span>
+                    <h1 class="page-hero-title">Let's Create Your Dream Bathroom</h1>
+                    <p class="page-hero-subtitle">Book a consultation, visit our showrooms, or chat with our experts</p>
+                </div>
+            </div>
+        </header>
+
+        <section class="contact-options" aria-labelledby="options-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="options-title" class="section-title reveal">How Can We Help?</h2>
+                </header>
+                <div class="options-grid">
+                    <article class="option-card reveal">
+                        <div class="option-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        </div>
+                        <h3>Showroom Appointment</h3>
+                        <p>Experience our collections in person with a dedicated design consultant</p>
+                        <a href="#appointment" class="option-link">Book Appointment <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                    </article>
+                    <article class="option-card reveal">
+                        <div class="option-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                        </div>
+                        <h3>Virtual Consultation</h3>
+                        <p>Video call with our experts from the comfort of your home</p>
+                        <a href="#virtual" class="option-link">Schedule Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                    </article>
+                    <article class="option-card reveal">
+                        <div class="option-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                        </div>
+                        <h3>Project Quote</h3>
+                        <p>Get a detailed quote for your bathroom project or renovation</p>
+                        <a href="#quote" class="option-link">Request Quote <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                    </article>
+                    <article class="option-card reveal">
+                        <div class="option-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                        </div>
+                        <h3>Technical Support</h3>
+                        <p>Installation guidance, warranty claims, and product support</p>
+                        <a href="support.html" class="option-link">Get Support <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="appointment-section" id="appointment" aria-labelledby="appointment-title">
+            <div class="container">
+                <div class="appointment-layout">
+                    <div class="appointment-info reveal">
+                        <h2 id="appointment-title" class="section-title">Visit Our Experience Centers</h2>
+                        <p class="section-subtitle">Book a personalized 60-minute consultation with our design experts. Complimentary with any collection purchase.</p>
+                        <div class="benefits">
+                            <div class="benefit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span>Hands-on product experience</span></div>
+                            <div class="benefit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span>Personalized design consultation</span></div>
+                            <div class="benefit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span>Water pressure testing</span></div>
+                            <div class="benefit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span>Finish & material samples</span></div>
+                            <div class="benefit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span>Project planning assistance</span></div>
+                            <div class="benefit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span>Exclusive showroom pricing</span></div>
+                        </div>
+                    </div>
+                    <form class="appointment-form reveal" id="appointmentForm" novalidate>
+                        <input type="hidden" name="formType" value="appointment">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="apptName">Full Name *</label>
+                                <input type="text" id="apptName" name="name" required autocomplete="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="apptEmail">Email *</label>
+                                <input type="email" id="apptEmail" name="email" required autocomplete="email">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="apptPhone">Phone *</label>
+                                <input type="tel" id="apptPhone" name="phone" required autocomplete="tel">
+                            </div>
+                            <div class="form-group">
+                                <label for="apptLocation">Preferred Location *</label>
+                                <select id="apptLocation" name="location" required>
+                                    <option value="">Select showroom</option>
+                                    <option value="mumbai">Mumbai Flagship - Kala Ghoda</option>
+                                    <option value="delhi">Delhi Experience Center - Mehrauli</option>
+                                    <option value="bangalore">Bangalore Studio - Indiranagar</option>
+                                    <option value="virtual">Virtual Consultation</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="apptDate">Preferred Date *</label>
+                                <input type="date" id="apptDate" name="date" required min="">
+                            </div>
+                            <div class="form-group">
+                                <label for="apptTime">Preferred Time *</label>
+                                <select id="apptTime" name="time" required>
+                                    <option value="">Select time</option>
+                                    <option value="10:00">10:00 AM</option>
+                                    <option value="11:00">11:00 AM</option>
+                                    <option value="12:00">12:00 PM</option>
+                                    <option value="14:00">2:00 PM</option>
+                                    <option value="15:00">3:00 PM</option>
+                                    <option value="16:00">4:00 PM</option>
+                                    <option value="17:00">5:00 PM</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="apptProject">Project Details</label>
+                            <textarea id="apptProject" name="project" rows="4" placeholder="Tell us about your project - bathroom size, style preferences, timeline, budget range..."></textarea>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="apptNewsletter" name="newsletter">
+                            <label for="apptNewsletter">Keep me updated with design inspiration and offers</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large btn-block">Book Appointment</button>
+                        <p class="form-note">We'll confirm within 24 hours. Cancellations up to 24 hours before.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="showrooms-section" aria-labelledby="showrooms-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="showrooms-title" class="section-title reveal">Our Showrooms</h2>
+                </header>
+                <div class="showrooms-grid">
+                    <article class="showroom-card reveal">
+                        <div class="showroom-image">
+                            <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=600&q=80" alt="Mumbai Flagship" loading="lazy">
+                        </div>
+                        <div class="showroom-content">
+                            <h3>Mumbai Flagship</h3>
+                            <p class="showroom-address">Kala Ghoda, Fort, Mumbai - 400001</p>
+                            <div class="showroom-hours">
+                                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg> Mon-Sat: 10 AM - 8 PM</span>
+                                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg> Sun: 11 AM - 6 PM</span>
+                            </div>
+                            <p class="showroom-phone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +91 22 4000 1234</p>
+                            <a href="#appointment" class="btn btn-primary" data-location="mumbai">Book Here</a>
+                        </div>
+                    </article>
+                    <article class="showroom-card reveal">
+                        <div class="showroom-image">
+                            <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&q=80" alt="Delhi Experience Center" loading="lazy">
+                        </div>
+                        <div class="showroom-content">
+                            <h3>Delhi Experience Center</h3>
+                            <p class="showroom-address">Mehrauli-Gurgaon Road, Delhi - 110030</p>
+                            <div class="showroom-hours">
+                                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg> Mon-Sat: 10 AM - 8 PM</span>
+                                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg> Sun: 11 AM - 6 PM</span>
+                            </div>
+                            <p class="showroom-phone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +91 11 4000 1234</p>
+                            <a href="#appointment" class="btn btn-primary" data-location="delhi">Book Here</a>
+                        </div>
+                    </article>
+                    <article class="showroom-card reveal">
+                        <div class="showroom-image">
+                            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80" alt="Bangalore Studio" loading="lazy">
+                        </div>
+                        <div class="showroom-content">
+                            <h3>Bangalore Studio</h3>
+                            <p class="showroom-address">Indiranagar, Bangalore - 560038</p>
+                            <div class="showroom-hours">
+                                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg> Mon-Sat: 10 AM - 8 PM</span>
+                                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg> Sun: 11 AM - 6 PM</span>
+                            </div>
+                            <p class="showroom-phone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +91 80 4000 1234</p>
+                            <a href="#appointment" class="btn btn-primary" data-location="bangalore">Book Here</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="quote-section" id="quote" aria-labelledby="quote-title">
+            <div class="container">
+                <div class="quote-layout">
+                    <div class="quote-info reveal">
+                        <h2 id="quote-title" class="section-title">Request a Project Quote</h2>
+                        <p class="section-subtitle">Share your project details and receive a comprehensive quote within 48 hours.</p>
+                        <div class="quote-process">
+                            <div class="process-step">
+                                <span class="step-number">01</span>
+                                <div>
+                                    <h4>Submit Details</h4>
+                                    <p>Fill out our project questionnaire</p>
+                                </div>
+                            </div>
+                            <div class="process-step">
+                                <span class="step-number">02</span>
+                                <div>
+                                    <h4>Consultation Call</h4>
+                                    <p>15-min call to clarify requirements</p>
+                                </div>
+                            </div>
+                            <div class="process-step">
+                                <span class="step-number">03</span>
+                                <div>
+                                    <h4>Receive Quote</h4>
+                                    <p>Detailed breakdown with options</p>
+                                </div>
+                            </div>
+                            <div class="process-step">
+                                <span class="step-number">04</span>
+                                <div>
+                                    <h4>Finalize</h4>
+                                    <p>Adjust and approve your design</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="quote-form reveal" id="quoteForm" novalidate>
+                        <input type="hidden" name="formType" value="quote">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="quoteName">Full Name *</label>
+                                <input type="text" id="quoteName" name="name" required autocomplete="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="quoteEmail">Email *</label>
+                                <input type="email" id="quoteEmail" name="email" required autocomplete="email">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="quotePhone">Phone *</label>
+                                <input type="tel" id="quotePhone" name="phone" required autocomplete="tel">
+                            </div>
+                            <div class="form-group">
+                                <label for="quoteCity">City *</label>
+                                <input type="text" id="quoteCity" name="city" required autocomplete="address-level2">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="quoteType">Project Type *</label>
+                            <select id="quoteType" name="projectType" required>
+                                <option value="">Select project type</option>
+                                <option value="new-build">New Construction</option>
+                                <option value="renovation">Full Renovation</option>
+                                <option value="partial">Partial Upgrade</option>
+                                <option value="hospitality">Hotel/Resort Project</option>
+                                <option value="commercial">Commercial/Spa</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="quoteBathrooms">Number of Bathrooms *</label>
+                            <select id="quoteBathrooms" name="bathrooms" required>
+                                <option value="">Select count</option>
+                                <option value="1">1 Bathroom</option>
+                                <option value="2">2 Bathrooms</option>
+                                <option value="3">3 Bathrooms</option>
+                                <option value="4">4 Bathrooms</option>
+                                <option value="5+">5+ Bathrooms</option>
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="quoteTimeline">Timeline *</label>
+                                <select id="quoteTimeline" name="timeline" required>
+                                    <option value="">Select timeline</option>
+                                    <option value="immediate">Immediate (0-3 months)</option>
+                                    <option value="soon">Near Term (3-6 months)</option>
+                                    <option value="planning">Planning (6-12 months)</option>
+                                    <option value="future">Future (12+ months)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="quoteBudget">Budget Range</label>
+                                <select id="quoteBudget" name="budget">
+                                    <option value="">Select range</option>
+                                    <option value="under-5l">Under ₹5 Lakhs</option>
+                                    <option value="5-10l">₹5-10 Lakhs</option>
+                                    <option value="10-25l">₹10-25 Lakhs</option>
+                                    <option value="25-50l">₹25-50 Lakhs</option>
+                                    <option value="50l+">₹50 Lakhs+</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="quoteDetails">Project Details *</label>
+                            <textarea id="quoteDetails" name="details" rows="5" required placeholder="Describe your vision, style preferences, must-have features, any inspiration images or plans..."></textarea>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="quotePlans" name="hasPlans">
+                            <label for="quotePlans">I have architectural plans/drawings to share</label>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="quoteNewsletter" name="newsletter">
+                            <label for="quoteNewsletter">Subscribe to design newsletter</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large btn-block">Submit Quote Request</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="quick-contact" aria-labelledby="quick-title">
+            <div class="container">
+                <div class="quick-grid">
+                    <div class="quick-info reveal">
+                        <h2 id="quick-title" class="section-title">Other Ways to Reach Us</h2>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="method-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+                                <div>
+                                    <h4>Call Us</h4>
+                                    <p>Toll Free: 1800-200-1234</p>
+                                    <p>Mon-Sat: 9 AM - 7 PM IST</p>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="method-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+                                <div>
+                                    <h4>Email Us</h4>
+                                    <p>premium@hindware.com</p>
+                                    <p>support@hindware.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="method-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+                                <div>
+                                    <h4>Find a Dealer</h4>
+                                    <p>500+ authorized dealers across India</p>
+                                    <a href="dealers.html" class="method-link">Locate Dealer Near You</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quick-faq reveal">
+                        <h3>Quick Answers</h3>
+                        <details class="faq-item">
+                            <summary>What's included in a showroom appointment?</summary>
+                            <p>60-minute consultation with a design expert, hands-on product testing, water pressure demo, finish samples, and project planning assistance. Complimentary with purchase.</p>
+                        </details>
+                        <details class="faq-item">
+                            <summary>Do you offer virtual consultations?</summary>
+                            <p>Yes! Book a 45-minute video call. We'll send fabric swatches and finish samples beforehand. Perfect for initial planning or remote locations.</p>
+                        </details>
+                        <details class="faq-item">
+                            <summary>How long does a quote take?</summary>
+                            <p>Standard quotes within 48 hours. Complex projects (5+ bathrooms, hospitality) may take 5-7 business days for detailed specifications.</p>
+                        </details>
+                        <details class="faq-item">
+                            <summary>What's your warranty?</summary>
+                            <p>10 years on shower fixtures, 5 years on electronics/smart features, 3 years on textiles. Full details at <a href="warranty.html">warranty page</a>.</p>
+                        </details>
+                        <details class="faq-item">
+                            <summary>Do you ship internationally?</summary>
+                            <p>Yes, we serve 120+ countries. International shipping quotes provided with project quotes. Local dealer support in major markets.</p>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-final">
+            <div class="container">
+                <div class="newsletter-content reveal">
+                    <h2>Stay Inspired</h2>
+                    <p>Monthly design tips, new collection previews, and exclusive offers.</p>
+                    <form id="footerNewsletter" class="newsletter-form">
+                        <input type="email" name="email" placeholder="Enter your email" required autocomplete="email">
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../index.html" class="footer-logo" aria-label="Hindware Premium Home">
+                        <svg class="logo-icon" viewBox="0 0 60 60" aria-hidden="true">
+                            <path d="M30 5L10 20v20l20 15 20-15V20L30 5zm0 5.5L46 17.5V35l-16 12-16-12V17.5L30 10.5z" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="30" cy="30" r="6" fill="currentColor"/>
+                        </svg>
+                        <span class="logo-text">Hindware <span class="logo-premium">Premium</span></span>
+                    </a>
+                    <p class="footer-tagline">Crafting extraordinary bathing experiences since 1999.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                        <a href="#" class="social-link" aria-label="Pinterest"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="17" x2="12" y2="22"/><path d="M5 17h14v-2.5a2.5 2.5 0 0 0-5 0V17"/><circle cx="12" cy="12" r="3"/></svg></a>
+                        <a href="#" class="social-link" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h20a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/><polygon points="23 7 16 12 23 17 23 7"/></svg></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    </div>
+                </div>
+                <nav class="footer-nav" aria-label="Footer navigation">
+                    <div class="footer-column"><h4>Showers</h4><ul><li><a href="showers.html?type=rain">Rain Showers</a></li><li><a href="showers.html?type=handheld">Handheld</a></li><li><a href="showers.html?type=body">Body Jets</a></li><li><a href="showers.html?type=digital">Smart Showers</a></li></ul></div>
+                    <div class="footer-column"><h4>Collections</h4><ul><li><a href="collections.html#rain-symphony">Rain Symphony</a></li><li><a href="collections.html#cascade">Cascade</a></li><li><a href="collections.html#precision">Precision</a></li><li><a href="collections.html#heritage">Heritage</a></li></ul></div>
+                    <div class="footer-column"><h4>Support</h4><ul><li><a href="faq.html">FAQs</a></li><li><a href="warranty.html">Warranty</a></li><li><a href="installation.html">Installation</a></li><li><a href="care.html">Care Guide</a></li></ul></div>
+                    <div class="footer-column"><h4>Company</h4><ul><li><a href="about.html">Our Story</a></li><li><a href="sustainability.html">Sustainability</a></li><li><a href="careers.html">Careers</a></li><li><a href="dealers.html">Become a Dealer</a></li></ul></div>
+                </nav>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2025 Hindware Premium. All rights reserved.</p>
+                <div class="footer-legal"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="cookies.html">Cookies</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg></button>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/contact.js"></script>
+</body>
+</html>

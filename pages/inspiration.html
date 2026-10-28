@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hindware Premium Inspiration Gallery - Discover stunning bathroom designs featuring our luxury showers and textiles. Get inspired for your dream bathroom.">
+    <title>Inspiration Gallery | Hindware Premium</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/animations.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo" aria-label="Hindware Premium Home">
+                <svg class="logo-icon" viewBox="0 0 60 60" aria-hidden="true">
+                    <path d="M30 5L10 20v20l20 15 20-15V20L30 5zm0 5.5L46 17.5V35l-16 12-16-12V17.5L30 10.5z" fill="none" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="30" cy="30" r="6" fill="currentColor"/>
+                </svg>
+                <span class="logo-text">Hindware <span class="logo-premium">Premium</span></span>
+            </a>
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-links">
+                    <li><a href="../index.html" class="nav-link" data-page="home">Home</a></li>
+                    <li><a href="showers.html" class="nav-link" data-page="showers">Showers</a></li>
+                    <li><a href="collections.html" class="nav-link" data-page="collections">Collections</a></li>
+                    <li><a href="textiles.html" class="nav-link" data-page="textiles">Bath Textiles</a></li>
+                    <li><a href="inspiration.html" class="nav-link active" data-page="inspiration">Inspiration</a></li>
+                    <li><a href="contact.html" class="nav-link" data-page="contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-actions">
+                <a href="catalog.html" class="btn btn-outline">Catalog</a>
+                <a href="contact.html" class="btn btn-primary">Book Consultation</a>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span class="hamburger"></span></button>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <header class="page-hero">
+            <div class="page-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1920&q=80')"></div>
+            <div class="page-hero-overlay"></div>
+            <div class="container">
+                <div class="page-hero-content reveal">
+                    <span class="page-hero-tag">Design Inspiration</span>
+                    <h1 class="page-hero-title">Bathroom Gallery</h1>
+                    <p class="page-hero-subtitle">Real projects showcasing Hindware Premium in luxurious bathrooms worldwide</p>
+                </div>
+            </div>
+        </header>
+
+        <section class="filter-bar" style="padding: var(--space-xl) 0; background: var(--color-off-white);">
+            <div class="container">
+                <div class="filter-tabs" role="tablist" aria-label="Project categories">
+                    <button class="filter-tab active" role="tab" aria-selected="true" data-filter="all">All Projects</button>
+                    <button class="filter-tab" role="tab" aria-selected="false" data-filter="residential">Residential</button>
+                    <button class="filter-tab" role="tab" aria-selected="false" data-filter="hospitality">Hotels & Spas</button>
+                    <button class="filter-tab" role="tab" aria-selected="false" data-filter="wellness">Wellness Centers</button>
+                    <button class="filter-tab" role="tab" aria-selected="false" data-filter="compact">Compact Bathrooms</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-section" aria-labelledby="gallery-title">
+            <div class="container">
+                <div class="gallery-grid" id="galleryGrid" role="list">
+                    <!-- Rendered by JS -->
+                </div>
+                <div class="load-more-container" style="text-align: center; margin-top: var(--space-2xl);">
+                    <button class="btn btn-outline btn-large" id="loadMore">Load More Projects</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="design-tips" aria-labelledby="tips-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="tips-title" class="section-title reveal">Design Tips from Our Experts</h2>
+                </header>
+                <div class="tips-grid">
+                    <article class="tip-card reveal">
+                        <div class="tip-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+                        <h3>Scale Your Shower</h3>
+                        <p>Match rain head size to ceiling height. 300mm for 2.4m, 400mm for 2.7m, 500mm for 3m+ ceilings.</p>
+                    </article>
+                    <article class="tip-card reveal">
+                        <div class="tip-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+                        <h3>Layer Your Lighting</h3>
+                        <p>Combine chromotherapy with warm ambient (2700K) and task lighting. Dimmers are essential.</p>
+                    </article>
+                    <article class="tip-card reveal">
+                        <div class="tip-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/></svg></div>
+                        <h3>Coordinate Finishes</h3>
+                        <p>Match shower hardware to faucets, towel bars, and cabinet hardware. Consistency creates luxury.</p>
+                    </article>
+                    <article class="tip-card reveal">
+                        <div class="tip-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></div>
+                        <h3>Textile Harmony</h3>
+                        <p>Choose towel colors that complement tile undertones. Neutral tiles = colorful towels. Patterned tiles = solid towels.</p>
+                    </article>
+                    <article class="tip-card reveal">
+                        <div class="tip-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/></svg></div>
+                        <h3>Plan for Storage</h3>
+                        <p>Integrate niches at shower height. Bench seating adds function and spa feel. Heated towel rails are worth it.</p>
+                    </article>
+                    <article class="tip-card reveal">
+                        <div class="tip-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M2 12h20"/></svg></div>
+                        <h3>Water Efficiency</h3>
+                        <p>EcoFlow™ saves 40% water without compromising experience. Smart showers track usage for sustainability goals.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content reveal">
+                    <h2>Ready to Create Your Dream Bathroom?</h2>
+                    <p>Our design consultants will help you plan every detail. Complimentary with any collection purchase.</p>
+                    <a href="contact.html" class="btn btn-primary btn-large">Start Your Project</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../index.html" class="footer-logo" aria-label="Hindware Premium Home">
+                        <svg class="logo-icon" viewBox="0 0 60 60" aria-hidden="true">
+                            <path d="M30 5L10 20v20l20 15 20-15V20L30 5zm0 5.5L46 17.5V35l-16 12-16-12V17.5L30 10.5z" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="30" cy="30" r="6" fill="currentColor"/>
+                        </svg>
+                        <span class="logo-text">Hindware <span class="logo-premium">Premium</span></span>
+                    </a>
+                    <p class="footer-tagline">Crafting extraordinary bathing experiences since 1999.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                        <a href="#" class="social-link" aria-label="Pinterest"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="17" x2="12" y2="22"/><path d="M5 17h14v-2.5a2.5 2.5 0 0 0-5 0V17"/><circle cx="12" cy="12" r="3"/></svg></a>
+                        <a href="#" class="social-link" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h20a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/><polygon points="23 7 16 12 23 17 23 7"/></svg></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    </div>
+                </div>
+                <nav class="footer-nav" aria-label="Footer navigation">
+                    <div class="footer-column"><h4>Showers</h4><ul><li><a href="showers.html?type=rain">Rain Showers</a></li><li><a href="showers.html?type=handheld">Handheld</a></li><li><a href="showers.html?type=body">Body Jets</a></li><li><a href="showers.html?type=digital">Smart Showers</a></li></ul></div>
+                    <div class="footer-column"><h4>Collections</h4><ul><li><a href="collections.html#rain-symphony">Rain Symphony</a></li><li><a href="collections.html#cascade">Cascade</a></li><li><a href="collections.html#precision">Precision</a></li><li><a href="collections.html#heritage">Heritage</a></li></ul></div>
+                    <div class="footer-column"><h4>Support</h4><ul><li><a href="contact.html">Contact Us</a></li><li><a href="faq.html">FAQs</a></li><li><a href="warranty.html">Warranty</a></li></ul></div>
+                    <div class="footer-column"><h4>Company</h4><ul><li><a href="about.html">Our Story</a></li><li><a href="sustainability.html">Sustainability</a></li><li><a href="careers.html">Careers</a></li></ul></div>
+                </nav>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2025 Hindware Premium. All rights reserved.</p>
+                <div class="footer-legal"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="cookies.html">Cookies</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg></button>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/inspiration.js"></script>
+</body>
+</html>

@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hindware Premium - Luxury Bathroom Showers & Textiles. Experience the ultimate in bathing luxury with our premium shower collections.">
+    <meta name="keywords" content="bathroom showers, luxury showers, Hindware, premium bathroom fittings, rain showers, handheld showers">
+    <title>Hindware Premium | Luxury Bathroom Showers & Textiles</title>
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo" aria-label="Hindware Premium Home">
+                <svg class="logo-icon" viewBox="0 0 60 60" aria-hidden="true">
+                    <path d="M30 5L10 20v20l20 15 20-15V20L30 5zm0 5.5L46 17.5V35l-16 12-16-12V17.5L30 10.5z" fill="none" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="30" cy="30" r="6" fill="currentColor"/>
+                </svg>
+                <span class="logo-text">Hindware <span class="logo-premium">Premium</span></span>
+            </a>
+            
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link active" data-page="home">Home</a></li>
+                    <li><a href="pages/showers.html" class="nav-link" data-page="showers">Showers</a></li>
+                    <li><a href="pages/collections.html" class="nav-link" data-page="collections">Collections</a></li>
+                    <li><a href="pages/textiles.html" class="nav-link" data-page="textiles">Bath Textiles</a></li>
+                    <li><a href="pages/inspiration.html" class="nav-link" data-page="inspiration">Inspiration</a></li>
+                    <li><a href="pages/contact.html" class="nav-link" data-page="contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav-actions">
+                <a href="pages/catalog.html" class="btn btn-outline">Catalog</a>
+                <a href="pages/contact.html" class="btn btn-primary">Book Consultation</a>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+        <div class="hero-background">
+            <div class="hero-bg-image" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=80')"></div>
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="hero-badge reveal">New Collection 2025</span>
+                <h1 class="hero-title reveal">
+                    Elevate Your <br><span class="highlight">Bathing Ritual</span>
+                </h1>
+                <p class="hero-subtitle reveal">
+                    Experience the harmony of water and design. Our premium shower collections transform everyday moments into extraordinary experiences.
+                </p>
+                <div class="hero-actions reveal">
+                    <a href="pages/showers.html" class="btn btn-primary btn-large">Explore Showers</a>
+                    <a href="pages/collections.html" class="btn btn-secondary btn-large">View Collections</a>
+                </div>
+                <div class="hero-stats reveal">
+                    <div class="stat">
+                        <span class="stat-number" data-count="50">0</span>
+                        <span class="stat-label">Premium Models</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="25">0</span>
+                        <span class="stat-label">Years Excellence</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="98">0</span>
+                        <span class="stat-label">% Satisfaction</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="120">0</span>
+                        <span class="stat-label">Countries Served</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-scroll" id="heroScroll">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M12 5v14M19 12l-7 7-7-7"/>
+            </svg>
+        </div>
+    </header>
+
+    <!-- Features Bar -->
+    <section class="features-bar" aria-label="Key Features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3>Premium Materials</h3>
+                    <p>316L Stainless Steel & Brass Construction</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            <path d="M2 12h20"/>
+                        </svg>
+                    </div>
+                    <h3>Water Saving Tech</h3>
+                    <p>EcoFlow™ Technology - 40% Less Water</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                            <rect x="2" y="3" width="20" height="14" rx="2"/>
+                            <path d="M8 21h8M12 17v4"/>
+                        </svg>
+                    </div>
+                    <h3>10-Year Warranty</h3>
+                    <p>Industry-Leading Peace of Mind</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h3>Quick Installation</h3>
+                    <p>EasyFit™ System - Under 30 Minutes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Collections -->
+    <section class="featured-collections" aria-labelledby="collections-heading">
+        <div class="container">
+            <header class="section-header">
+                <span class="section-tag reveal">Our Collections</span>
+                <h2 id="collections-heading" class="section-title reveal">Curated Excellence</h2>
+                <p class="section-subtitle reveal">Each collection tells a story of craftsmanship, innovation, and timeless design</p>
+            </header>
+            
+            <div class="collections-grid">
+                <!-- Collection 1: Rain Symphony -->
+                <article class="collection-card reveal" data-collection="rain-symphony">
+                    <div class="collection-image">
+                        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80" alt="Rain Symphony Shower Collection" loading="lazy">
+                        <div class="collection-overlay">
+                            <a href="pages/collection-detail.html?id=rain-symphony" class="btn btn-white">Explore Collection</a>
+                        </div>
+                    </div>
+                    <div class="collection-content">
+                        <span class="collection-category">Signature Series</span>
+                        <h3 class="collection-title">Rain Symphony</h3>
+                        <p class="collection-desc">Immerse yourself in nature's perfect rainfall. Ultra-wide coverage with adjustable intensity.</p>
+                        <div class="collection-meta">
+                            <span class="collection-price">From ₹45,000</span>
+                            <span class="collection-count">8 Models</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Collection 2: Cascade -->
+                <article class="collection-card reveal" data-collection="cascade">
+                    <div class="collection-image">
+                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80" alt="Cascade Shower Collection" loading="lazy">
+                        <div class="collection-overlay">
+                            <a href="pages/collection-detail.html?id=cascade" class="btn btn-white">Explore Collection</a>
+                        </div>
+                    </div>
+                    <div class="collection-content">
+                        <span class="collection-category">Wellness Series</span>
+                        <h3 class="collection-title">Cascade</h3>
+                        <p class="collection-desc">Therapeutic waterfall experience with chromotherapy lighting and aromatherapy integration.</p>
+                        <div class="collection-meta">
+                            <span class="collection-price">From ₹78,000</span>
+                            <span class="collection-count">5 Models</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Collection 3: Precision -->
+                <article class="collection-card reveal" data-collection="precision">
+                    <div class="collection-image">
+                        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80" alt="Precision Shower Collection" loading="lazy">
+                        <div class="collection-overlay">
+                            <a href="pages/collection-detail.html?id=precision" class="btn btn-white">Explore Collection</a>
+                        </div>
+                    </div>
+                    <div class="collection-content">
+                        <span class="collection-category">Pro Series</span>
+                        <h3 class="collection-title">Precision</h3>
+                        <p class="collection-desc">Architectural minimalism meets engineering excellence. Precision temperature and flow control.</p>
+                        <div class="collection-meta">
+                            <span class="collection-price">From ₹32,000</span>
+                            <span class="collection-count">12 Models</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Collection 4: Heritage -->
+                <article class="collection-card reveal" data-collection="heritage">
+                    <div class="collection-image">
+                        <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80" alt="Heritage Shower Collection" loading="lazy">
+                        <div class="collection-overlay">
+                            <a href="pages/collection-detail.html?id=heritage" class="btn btn-white">Explore Collection</a>
+                        </div>
+                    </div>
+                    <div class="collection-content">
+                        <span class="collection-category">Classic Series</span>
+                        <h3 class="collection-title">Heritage</h3>
+                        <p class="collection-desc">Timeless Victorian elegance with modern performance. Cross-handle controls, exposed pipework.</p>
+                        <div class="collection-meta">
+                            <span class="collection-price">From ₹55,000</span>
+                            <span class="collection-count">6 Models</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="section-footer reveal">
+                <a href="pages/collections.html" class="btn btn-outline btn-large">View All Collections</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shower Types Showcase -->
+    <section class="shower-types" aria-labelledby="types-heading">
+        <div class="container">
+            <header class="section-header">
+                <span class="section-tag reveal">Shower Types</span>
+                <h2 id="types-heading" class="section-title reveal">Find Your Perfect Shower</h2>
+                <p class="section-subtitle reveal">From invigorating rain to targeted therapy - discover the shower experience designed for you</p>
+            </header>
+            
+            <div class="types-tabs">
+                <div class="tab-buttons" role="tablist" aria-label="Shower type categories">
+                    <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="panel-rain" data-tab="rain">Rain Showers</button>
+                    <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-handheld" data-tab="handheld">Handheld</button>
+                    <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-body" data-tab="body">Body Jets</button>
+                    <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-digital" data-tab="digital">Digital Smart</button>
+                    <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-combo" data-tab="combo">Combo Systems</button>
+                </div>
+                
+                <div class="tab-panels">
+                    <!-- Rain Showers -->
+                    <div class="tab-panel active" id="panel-rain" role="tabpanel" aria-labelledby="tab-rain">
+                        <div class="type-showcase">
+                            <div class="type-image">
+                                <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80" alt="Rain shower head installation" loading="lazy">
+                            </div>
+                            <div class="type-content">
+                                <h3>Rain Showers</h3>
+                                <p>Experience the gentle embrace of natural rainfall. Our rain showers feature ultra-wide spray faces (200mm-500mm) with precisely engineered nozzles that create a luxurious, enveloping water curtain.</p>
+                                <ul class="type-features">
+                                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Ceiling & wall mount options</li>
+                                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Adjustable spray patterns</li>
+                                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Anti-limescale silicone nozzles</li>
+                                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Sizes: 200mm, 300mm, 400mm, 500mm</li>
+                                </ul>
+                                <a href="pages/showers.html?type=rain" class="btn btn-primary">View Rain Showers</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Handheld -->
+                    <div class="tab-panel" id="panel-handheld" role="tabpanel" aria-labelledby="tab-handheld">
+                        <div class="type-showcase">
+                            <div class="type-image">
+                                <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80" alt="Handheld shower with sliding rail" loading="lazy">
+                            </div>
+                            <div class="type-content">
+                                <h3>Handheld Showers</h3>
+                                <p>Versatility meets ergonomics. Our handheld showers feature magnetic docking, multiple spray modes, and EasyClean nozzles. Perfect for targeted rinsing, bathing children, or cleaning the shower enclosure.</p>
+                                <ul class="type-features">
+                                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>3-5 spray patterns</li>
+                                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Magnetic DockPro™ holder</li>
+                                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>1.5m tangle-free hose</li>
+                                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Ergonomic grip design</li>
+                                </ul>
+                                <a href="pages/showers.html?type=handheld" class="btn btn-primary">View Handheld</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Body Jets -->
+                    <div class="tab-panel" id="panel-body" role="tabpanel" aria-labelledby="tab-body">
+                        <div class="type-showcase">
+                            <div class="type-image">
+                                <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80" alt="Body jets shower installation" loading="lazy">
+                            </div>
+                            <div class="type-content">
+                                <h3>Body Jets</h3>
+                                <p>Transform your shower into a hydrotherapy sanctuary. Precision-engineered body jets deliver targeted massage to key muscle groups. Fully adjustable direction and intensity.</p>
+                                <ul class="type-features">
+                                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>360° directional adjustment</li>
+                                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Pulsating & steady modes</li>
+                                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Flush-mount installation</li>
+                                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>2, 4, or 6 jet configurations</li>
+                                </ul>
+                                <a href="pages/showers.html?type=body" class="btn btn-primary">View Body Jets</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Digital Smart -->
+                    <div class="tab-panel" id="panel-digital" role="tabpanel" aria-labelledby="tab-digital">
+                        <div class="type-showcase">
+                            <div class="type-image">
+                                <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80" alt="Digital smart shower control panel" loading="lazy">
+                            </div>
+                            <div class="type-content">
+                                <h3>Digital Smart Showers</h3>
+                                <p>The future of bathing intelligence. App-controlled precision with personalized presets, voice activation, water usage tracking, and remote start. Your perfect shower, ready when you are.</p>
+                                <ul class="type-features">
+                                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>WiFi & Bluetooth connectivity</li>
+                                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Up to 6 user profiles</li>
+                                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Voice control (Alexa/Google)</li>
+                                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Water & energy monitoring</li>
+                                </ul>
+                                <a href="pages/showers.html?type=digital" class="btn btn-primary">View Smart Showers</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Combo Systems -->
+                    <div class="tab-panel" id="panel-combo" role="tabpanel" aria-labelledby="tab-combo">
+                        <div class="type-showcase">
+                            <div class="type-image">
+                                <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80" alt="Complete shower system with rain head and handheld" loading="lazy">
+                            </div>
+                            <div class="type-content">
+                                <h3>Complete Shower Systems</h3>
+                                <p>Curated combinations for the ultimate shower experience. Rain head + handheld + body jets + thermostatic valve - all perfectly matched in finish and performance.</p>
+                                <ul class="type-features">
+                                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Pre-configured packages</li>
+                                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Thermostatic safety valve</li>
+                                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Coordinated finishes</li>
+                                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Single-valve control</li>
+                                </ul>
+                                <a href="pages/showers.html?type=combo" class="btn btn-primary">View Systems</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bath Textiles Section -->
+    <section class="bath-textiles" aria-labelledby="textiles-heading">
+        <div class="container">
+            <header class="section-header">
+                <span class="section-tag reveal">Bath Textiles</span>
+                <h2 id="textiles-heading" class="section-title reveal">Indulge in Softness</h2>
+                <p class="section-subtitle reveal">Premium towels, robes, and accessories crafted from the finest cotton and bamboo fibers</p>
+            </header>
+            
+            <div class="textiles-showcase">
+                <div class="textile-hero reveal">
+                    <div class="textile-image">
+                        <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1000&q=80" alt="Luxury bath towels and robes displayed" loading="lazy">
+                    </div>
+                    <div class="textile-content">
+                        <h3>Royal Egyptian Cotton Collection</h3>
+                        <p>Experience cloud-like softness with our 700 GSM Egyptian cotton towels. Extra-long staple fibers create exceptional absorbency and durability that improves with every wash.</p>
+                        <div class="textile-highlights">
+                            <div class="highlight-item">
+                                <span class="highlight-value">700 GSM</span>
+                                <span class="highlight-label">Weight</span>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="highlight-value">100%</span>
+                                <span class="highlight-label">Egyptian Cotton</span>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="highlight-value">OEKO-TEX®</span>
+                                <span class="highlight-label">Certified</span>
+                            </div>
+                        </div>
+                        <a href="pages/textiles.html" class="btn btn-primary">Shop Bath Textiles</a>
+                    </div>
+                </div>
+                
+                <div class="textile-grid">
+                    <article class="textile-card reveal">
+                        <div class="textile-card-image">
+                            <img src="https://images.unsplash.com/photo-1584417512347-57e05d16d528?w=400&q=80" alt="Plush bath towels" loading="lazy">
+                        </div>
+                        <div class="textile-card-content">
+                            <h4>Plush Bath Sheets</h4>
+                            <p>Oversized 100x150cm for full coverage luxury</p>
+                            <span class="textile-price">From ₹3,200</span>
+                        </div>
+                    </article>
+                    <article class="textile-card reveal">
+                        <div class="textile-card-image">
+                            <img src="https://images.unsplash.com/photo-1584417512347-57e05d16d528?w=400&q=80" alt="Bamboo bath robe" loading="lazy">
+                        </div>
+                        <div class="textile-card-content">
+                            <h4>Bamboo Silk Robes</h4>
+                            <p>Sustainable luxury with natural antimicrobial properties</p>
+                            <span class="textile-price">From ₹8,500</span>
+                        </div>
+                    </article>
+                    <article class="textile-card reveal">
+                        <div class="textile-card-image">
+                            <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=400&q=80" alt="Bath mat and accessories" loading="lazy">
+                        </div>
+                        <div class="textile-card-content">
+                            <h4>Memory Foam Bath Mats</h4>
+                            <p>Cloud-soft step with quick-dry technology</p>
+                            <span class="textile-price">From ₹2,800</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section class="technology" aria-labelledby="tech-heading">
+        <div class="container">
+            <header class="section-header">
+                <span class="section-tag reveal">Innovation</span>
+                <h2 id="tech-heading" class="section-title reveal">Engineering Excellence</h2>
+                <p class="section-subtitle reveal">Patented technologies that redefine shower performance and sustainability</p>
+            </header>
+            
+            <div class="tech-grid">
+                <article class="tech-card reveal">
+                    <div class="tech-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            <path d="M2 12h20M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+                        </svg>
+                    </div>
+                    <h3>AirBoost™ Technology</h3>
+                    <p>Infuses air into water droplets for 50% more volume perception while using 30% less water. Larger, softer droplets for a luxurious feel.</p>
+                </article>
+                
+                <article class="tech-card reveal">
+                    <div class="tech-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h3>ThermoLock™ Valve</h3>
+                    <p>Precision thermostatic cartridge maintains exact temperature within ±0.5°C. Anti-scald protection with automatic shutoff at 38°C.</p>
+                </article>
+                
+                <article class="tech-card reveal">
+                    <div class="tech-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                            <path d="M17 18a5 5 0 0 0-10 0M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+                        </svg>
+                    </div>
+                    <h3>SilenceFlow™</h3>
+                    <p>Advanced fluid dynamics reduce turbulence noise by 60%. Enjoy a peaceful, spa-like shower experience even at high pressure.</p>
+                </article>
+                
+                <article class="tech-card reveal">
+                    <div class="tech-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            <path d="M12 12l2 2 4-4"/>
+                        </svg>
+                    </div>
+                    <h3>EcoSense™ Monitor</h3>
+                    <p>Real-time water and energy consumption display. Set daily limits, track savings, and earn eco-rewards through our app.</p>
+                </article>
+                
+                <article class="tech-card reveal">
+                    <div class="tech-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                            <rect x="2" y="3" width="20" height="14" rx="2"/>
+                            <path d="M8 21h8M12 17v4M12 7v4"/>
+                        </svg>
+                    </div>
+                    <h3>EasyClean™ Nozzles</h3>
+                    <p>Silicone nozzles resist limescale buildup. Simply wipe with a finger to restore full flow - no chemicals or tools needed.</p>
+                </article>
+                
+                <article class="tech-card reveal">
+                    <div class="tech-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                            <path d="M3.27 6.96L12 12.01l8.73-5.05M12 22.08V12"/>
+                        </svg>
+                    </div>
+                    <h3>DuraFinish™ Coating</h3>
+                    <p>PVD coating technology provides 10x scratch resistance. Available in Chrome, Brushed Nickel, Matte Black, Brushed Gold, and Gunmetal.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" aria-labelledby="testimonials-heading">
+        <div class="container">
+            <header class="section-header">
+                <span class="section-tag reveal">Testimonials</span>
+                <h2 id="testimonials-heading" class="section-title reveal">Trusted by Designers & Homeowners</h2>
+            </header>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <article class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        </div>
+                        <p class="testimonial-text">"The Rain Symphony collection transformed our master bathroom into a spa retreat. The water coverage is incredible - it truly feels like standing in warm rainfall."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" alt="Priya Sharma" loading="lazy">
+                            </div>
+                            <div class="author-info">
+                                <h4>Priya Sharma</h4>
+                                <span>Interior Designer, Mumbai</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        </div>
+                        <p class="testimonial-text">"The ThermoLock valve is a game-changer for families. My kids can shower safely without any temperature surprises. Engineering at its finest."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt="Rajesh Kumar" loading="lazy">
+                            </div>
+                            <div class="author-info">
+                                <h4>Rajesh Kumar</h4>
+                                <span>Homeowner, Bangalore</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        </div>
+                        <p class="testimonial-text">"We specified the Cascade wellness showers for a luxury resort project. The chromotherapy and aromatherapy integration exceeded guest expectations. Exceptional quality."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80" alt="Anita Desai" loading="lazy">
+                            </div>
+                            <div class="author-info">
+                                <h4>Anita Desai</h4>
+                                <span>Project Architect, Delhi</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                
+                <div class="slider-controls">
+                    <button class="slider-btn prev" id="prevTestimonial" aria-label="Previous testimonial">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+                    </button>
+                    <div class="slider-dots" id="sliderDots"></div>
+                    <button class="slider-btn next" id="nextTestimonial" aria-label="Next testimonial">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showroom Locator -->
+    <section class="showroom" aria-labelledby="showroom-heading">
+        <div class="container">
+            <header class="section-header">
+                <span class="section-tag reveal">Visit Us</span>
+                <h2 id="showroom-heading" class="section-title reveal">Experience in Person</h2>
+                <p class="section-subtitle reveal">Visit our experience centers to see, touch, and feel the Hindware Premium difference</p>
+            </header>
+            
+            <div class="showroom-grid">
+                <article class="showroom-card reveal">
+                    <div class="showroom-image">
+                        <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=600&q=80" alt="Hindware Premium Experience Center Mumbai" loading="lazy">
+                    </div>
+                    <div class="showroom-content">
+                        <h3>Mumbai Flagship</h3>
+                        <p class="showroom-address">Kala Ghoda, Fort, Mumbai - 400001</p>
+                        <div class="showroom-hours">
+                            <span>Mon-Sat: 10 AM - 8 PM</span>
+                            <span>Sun: 11 AM - 6 PM</span>
+                        </div>
+                        <a href="pages/contact.html?showroom=mumbai" class="btn btn-outline">Book Appointment</a>
+                    </div>
+                </article>
+                
+                <article class="showroom-card reveal">
+                    <div class="showroom-image">
+                        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&q=80" alt="Hindware Premium Experience Center Delhi" loading="lazy">
+                    </div>
+                    <div class="showroom-content">
+                        <h3>Delhi Experience Center</h3>
+                        <p class="showroom-address">Mehrauli-Gurgaon Road, Delhi - 110030</p>
+                        <div class="showroom-hours">
+                            <span>Mon-Sat: 10 AM - 8 PM</span>
+                            <span>Sun: 11 AM - 6 PM</span>
+                        </div>
+                        <a href="pages/contact.html?showroom=delhi" class="btn btn-outline">Book Appointment</a>
+                    </div>
+                </article>
+                
+                <article class="showroom-card reveal">
+                    <div class="showroom-image">
+                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80" alt="Hindware Premium Experience Center Bangalore" loading="lazy">
+                    </div>
+                    <div class="showroom-content">
+                        <h3>Bangalore Studio</h3>
+                        <p class="showroom-address">Indiranagar, Bangalore - 560038</p>
+                        <div class="showroom-hours">
+                            <span>Mon-Sat: 10 AM - 8 PM</span>
+                            <span>Sun: 11 AM - 6 PM</span>
+                        </div>
+                        <a href="pages/contact.html?showroom=bangalore" class="btn btn-outline">Book Appointment</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter" aria-labelledby="newsletter-heading">
+        <div class="container">
+            <div class="newsletter-content reveal">
+                <div class="newsletter-text">
+                    <h2 id="newsletter-heading">Stay Inspired</h2>
+                    <p>Receive design inspiration, new collection previews, and exclusive offers straight to your inbox.</p>
+                </div>
+                <form class="newsletter-form" id="newsletterForm">
+                    <div class="form-group">
+                        <label for="email" class="visually-hidden">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required autocomplete="email">
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </div>
+                    <p class="form-note">We respect your privacy. Unsubscribe anytime.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo" aria-label="Hindware Premium Home">
+                        <svg class="logo-icon" viewBox="0 0 60 60" aria-hidden="true">
+                            <path d="M30 5L10 20v20l20 15 20-15V20L30 5zm0 5.5L46 17.5V35l-16 12-16-12V17.5L30 10.5z" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="30" cy="30" r="6" fill="currentColor"/>
+                        </svg>
+                        <span class="logo-text">Hindware <span class="logo-premium">Premium</span></span>
+                    </a>
+                    <p class="footer-tagline">Crafting extraordinary bathing experiences since 1999. Where water meets artistry.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                        <a href="#" class="social-link" aria-label="Pinterest"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="17" x2="12" y2="22"/><path d="M5 17h14v-2.5a2.5 2.5 0 0 0-5 0V17"/><circle cx="12" cy="12" r="3"/></svg></a>
+                        <a href="#" class="social-link" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 3h20a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/><polygon points="23 7 16 12 23 17 23 7"/></svg></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    </div>
+                </div>
+                
+                <nav class="footer-nav" aria-label="Footer navigation">
+                    <div class="footer-column">
+                        <h4>Showers</h4>
+                        <ul>
+                            <li><a href="pages/showers.html?type=rain">Rain Showers</a></li>
+                            <li><a href="pages/showers.html?type=handheld">Handheld Showers</a></li>
+                            <li><a href="pages/showers.html?type=body">Body Jets</a></li>
+                            <li><a href="pages/showers.html?type=digital">Smart Showers</a></li>
+                            <li><a href="pages/showers.html?type=combo">Shower Systems</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Collections</h4>
+                        <ul>
+                            <li><a href="pages/collection-detail.html?id=rain-symphony">Rain Symphony</a></li>
+                            <li><a href="pages/collection-detail.html?id=cascade">Cascade</a></li>
+                            <li><a href="pages/collection-detail.html?id=precision">Precision</a></li>
+                            <li><a href="pages/collection-detail.html?id=heritage">Heritage</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Bath Textiles</h4>
+                        <ul>
+                            <li><a href="pages/textiles.html#towels">Bath Towels & Sheets</a></li>
+                            <li><a href="pages/textiles.html#robes">Bath Robes</a></li>
+                            <li><a href="pages/textiles.html#mats">Bath Mats</a></li>
+                            <li><a href="pages/textiles.html#accessories">Accessories</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="pages/contact.html">Contact Us</a></li>
+                            <li><a href="pages/faq.html">FAQs</a></li>
+                            <li><a href="pages/warranty.html">Warranty Registration</a></li>
+                            <li><a href="pages/installation.html">Installation Guides</a></li>
+                            <li><a href="pages/care.html">Care & Maintenance</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="pages/about.html">Our Story</a></li>
+                            <li><a href="pages/sustainability.html">Sustainability</a></li>
+                            <li><a href="pages/careers.html">Careers</a></li>
+                            <li><a href="pages/press.html">Press</a></li>
+                            <li><a href="pages/dealers.html">Become a Dealer</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2025 Hindware Premium. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="pages/privacy.html">Privacy Policy</a>
+                    <a href="pages/terms.html">Terms of Service</a>
+                    <a href="pages/cookies.html">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

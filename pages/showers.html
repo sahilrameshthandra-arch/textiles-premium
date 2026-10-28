@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Hindware Premium's complete range of luxury bathroom showers including rain showers, handheld showers, body jets, smart showers, and complete shower systems.">
+    <title>Shower Collections | Hindware Premium</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/animations.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo" aria-label="Hindware Premium Home">
+                <svg class="logo-icon" viewBox="0 0 60 60" aria-hidden="true">
+                    <path d="M30 5L10 20v20l20 15 20-15V20L30 5zm0 5.5L46 17.5V35l-16 12-16-12V17.5L30 10.5z" fill="none" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="30" cy="30" r="6" fill="currentColor"/>
+                </svg>
+                <span class="logo-text">Hindware <span class="logo-premium">Premium</span></span>
+            </a>
+            
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-links">
+                    <li><a href="../index.html" class="nav-link" data-page="home">Home</a></li>
+                    <li><a href="showers.html" class="nav-link active" data-page="showers">Showers</a></li>
+                    <li><a href="collections.html" class="nav-link" data-page="collections">Collections</a></li>
+                    <li><a href="textiles.html" class="nav-link" data-page="textiles">Bath Textiles</a></li>
+                    <li><a href="inspiration.html" class="nav-link" data-page="inspiration">Inspiration</a></li>
+                    <li><a href="contact.html" class="nav-link" data-page="contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav-actions">
+                <a href="catalog.html" class="btn btn-outline">Catalog</a>
+                <a href="contact.html" class="btn btn-primary">Book Consultation</a>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <!-- Page Hero -->
+        <header class="page-hero">
+            <div class="page-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=1920&q=80')"></div>
+            <div class="page-hero-overlay"></div>
+            <div class="container">
+                <div class="page-hero-content reveal">
+                    <span class="page-hero-tag">Our Products</span>
+                    <h1 class="page-hero-title">Shower Collections</h1>
+                    <p class="page-hero-subtitle">Discover the perfect shower for your sanctuary. From invigorating rain to therapeutic body jets.</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Filter Bar -->
+        <div class="filter-bar" aria-label="Product filters">
+            <div class="container">
+                <div class="filter-tabs" role="tablist" aria-label="Shower categories">
+                    <button class="filter-tab active" role="tab" aria-selected="true" data-filter="all">All Showers</button>
+                    <button class="filter-tab" role="tab" aria-selected="false" data-filter="rain">Rain Showers</button>
+                    <button class="filter-tab" role="tab" aria-selected="false" data-filter="handheld">Handheld</button>
+                    <button class="filter-tab" role="tab" aria-selected="false" data-filter="body">Body Jets</button>
+                    <button class="filter-tab" role="tab" aria-selected="false" data-filter="digital">Smart Showers</button>
+                    <button class="filter-tab" role="tab" aria-selected="false" data-filter="combo">Systems</button>
+                </div>
+                
+                <div class="filter-actions">
+                    <select class="filter-select" id="sortSelect" aria-label="Sort products">
+                        <option value="featured">Featured</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                        <option value="newest">Newest First</option>
+                        <option value="rating">Top Rated</option>
+                    </select>
+                    <button class="btn btn-outline btn-sm" id="filterToggle" aria-expanded="false" aria-controls="filterPanel">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+                        Filters
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile Filter Panel -->
+            <div class="filter-panel" id="filterPanel" role="dialog" aria-label="Filter options" hidden>
+                <div class="filter-panel-header">
+                    <h3>Filters</h3>
+                    <button class="filter-panel-close" aria-label="Close filters">&times;</button>
+                </div>
+                <div class="filter-panel-content">
+                    <fieldset class="filter-group">
+                        <legend>Price Range</legend>
+                        <div class="price-range">
+                            <input type="range" id="priceMin" min="0" max="200000" value="0" aria-label="Minimum price">
+                            <input type="range" id="priceMax" min="0" max="200000" value="200000" aria-label="Maximum price">
+                            <div class="price-inputs">
+                                <label>₹<input type="number" id="priceMinInput" value="0" min="0" max="200000" step="1000"></label>
+                                <span>–</span>
+                                <label>₹<input type="number" id="priceMaxInput" value="200000" min="0" max="200000" step="1000"></label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    
+                    <fieldset class="filter-group">
+                        <legend>Finish</legend>
+                        <div class="filter-options">
+                            <label class="filter-option"><input type="checkbox" value="chrome"> Chrome</label>
+                            <label class="filter-option"><input type="checkbox" value="brushed-nickel"> Brushed Nickel</label>
+                            <label class="filter-option"><input type="checkbox" value="matte-black"> Matte Black</label>
+                            <label class="filter-option"><input type="checkbox" value="brushed-gold"> Brushed Gold</label>
+                            <label class="filter-option"><input type="checkbox" value="gunmetal"> Gunmetal</label>
+                        </div>
+                    </fieldset>
+                    
+                    <fieldset class="filter-group">
+                        <legend>Features</legend>
+                        <div class="filter-options">
+                            <label class="filter-option"><input type="checkbox" value="thermostatic"> Thermostatic Control</label>
+                            <label class="filter-option"><input type="checkbox" value="water-saving"> Water Saving</label>
+                            <label class="filter-option"><input type="checkbox" value="chromotherapy"> Chromotherapy</label>
+                            <label class="filter-option"><input type="checkbox" value="smart"> Smart Control</label>
+                            <label class="filter-option"><input type="checkbox" value="easy-clean"> Easy Clean Nozzles</label>
+                        </div>
+                    </fieldset>
+                    
+                    <div class="filter-panel-actions">
+                        <button class="btn btn-outline" id="clearFilters">Clear All</button>
+                        <button class="btn btn-primary" id="applyFilters">Apply Filters</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product Grid -->
+        <section class="product-section" aria-labelledby="products-heading">
+            <div class="container">
+                <div class="product-toolbar">
+                    <p class="product-count" id="productCount">Showing 24 products</p>
+                    <div class="view-toggle" role="group" aria-label="View options">
+                        <button class="view-btn active" data-view="grid" aria-label="Grid view"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg></button>
+                        <button class="view-btn" data-view="list" aria-label="List view"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+                    </div>
+                </div>
+                
+                <div class="product-grid" id="productGrid" role="list">
+                    <!-- Products will be rendered by JavaScript -->
+                </div>
+                
+                <div class="pagination" id="pagination" aria-label="Pagination">
+                    <!-- Pagination will be rendered by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Comparison Table -->
+        <section class="comparison-section" aria-labelledby="comparison-heading">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="comparison-heading" class="section-title reveal">Quick Comparison</h2>
+                    <p class="section-subtitle reveal">Compare key features across our shower categories</p>
+                </header>
+                
+                <div class="comparison-table-wrapper reveal">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Feature</th>
+                                <th>Rain Showers</th>
+                                <th>Handheld</th>
+                                <th>Body Jets</th>
+                                <th>Smart Showers</th>
+                                <th>Complete Systems</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Primary Use</td>
+                                <td>Overhead rainfall experience</td>
+                                <td>Versatile targeted rinsing</td>
+                                <td>Hydrotherapy massage</td>
+                                <td>Personalized presets</td>
+                                <td>Full shower ensemble</td>
+                            </tr>
+                            <tr>
+                                <td>Mounting</td>
+                                <td>Ceiling / Wall</td>
+                                <td>Wall with sliding rail</td>
+                                <td>Flush wall mount</td>
+                                <td>Wall / Ceiling</td>
+                                <td>Multiple points</td>
+                            </tr>
+                            <tr>
+                                <td>Spray Patterns</td>
+                                <td>1-3 patterns</td>
+                                <td>3-5 patterns</td>
+                                <td>Pulsating / Steady</td>
+                                <td>Unlimited via app</td>
+                                <td>All combined</td>
+                            </tr>
+                            <tr>
+                                <td>Water Efficiency</td>
+                                <td>EcoFlow™ available</td>
+                                <td>EcoFlow™ standard</td>
+                                <td>Zone control</td>
+                                <td>EcoSense™ monitoring</td>
+                                <td>Optimized system</td>
+                            </tr>
+                            <tr>
+                                <td>Installation</td>
+                                <td>EasyFit™ 30 min</td>
+                                <td>EasyFit™ 20 min</td>
+                                <td>Professional recommended</td>
+                                <td>Professional required</td>
+                                <td>Professional required</td>
+                            </tr>
+                            <tr>
+                                <td>Price Range</td>
+                                <td>₹25,000 - ₹1,20,000</td>
+                                <td>₹8,000 - ₹45,000</td>
+                                <td>₹15,000 - ₹80,000</td>
+                                <td>₹65,000 - ₹2,50,000</td>
+                                <td>₹85,000 - ₹4,00,000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Buying Guide -->
+        <section class="buying-guide" aria-labelledby="guide-heading">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="guide-heading" class="section-title reveal">Shower Buying Guide</h2>
+                    <p class="section-subtitle reveal">Everything you need to know to choose the perfect shower</p>
+                </header>
+                
+                <div class="guide-grid">
+                    <article class="guide-card reveal">
+                        <div class="guide-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                        </div>
+                        <h3>Measure Your Space</h3>
+                        <p>Consider ceiling height, wall distance, and existing plumbing. Rain showers need minimum 2.1m ceiling height for optimal experience.</p>
+                    </article>
+                    
+                    <article class="guide-card reveal">
+                        <div class="guide-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        </div>
+                        <h3>Check Water Pressure</h3>
+                        <p>Most premium showers require 1.5-3 bar pressure. Our digital showers work from 0.5 bar with built-in pumps.</p>
+                    </article>
+                    
+                    <article class="guide-card reveal">
+                        <div class="guide-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                        </div>
+                        <h3>Consider Your Routine</h3>
+                        <p>Morning rush? Quick-set digital presets. Evening unwind? Rain + body jets combo. Family? Handheld + rain dual system.</p>
+                    </article>
+                    
+                    <article class="guide-card reveal">
+                        <div class="guide-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+                        </div>
+                        <h3>Match Your Style</h3>
+                        <p>Choose finishes that complement your bathroom: Chrome for classic, Matte Black for modern, Brushed Gold for luxury.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content reveal">
+                    <h2>Need Help Choosing?</h2>
+                    <p>Book a free consultation with our shower experts. We'll help you find the perfect system for your space and budget.</p>
+                    <a href="contact.html" class="btn btn-primary btn-large">Book Free Consultation</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../index.html" class="footer-logo" aria-label="Hindware Premium Home">
+                        <svg class="logo-icon" viewBox="0 0 60 60" aria-hidden="true">
+                            <path d="M30 5L10 20v20l20 15 20-15V20L30 5zm0 5.5L46 17.5V35l-16 12-16-12V17.5L30 10.5z" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="30" cy="30" r="6" fill="currentColor"/>
+                        </svg>
+                        <span class="logo-text">Hindware <span class="logo-premium">Premium</span></span>
+                    </a>
+                    <p class="footer-tagline">Crafting extraordinary bathing experiences since 1999.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                        <a href="#" class="social-link" aria-label="Pinterest"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="17" x2="12" y2="22"/><path d="M5 17h14v-2.5a2.5 2.5 0 0 0-5 0V17"/><circle cx="12" cy="12" r="3"/></svg></a>
+                        <a href="#" class="social-link" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h20a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/><polygon points="23 7 16 12 23 17 23 7"/></svg></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    </div>
+                </div>
+                <nav class="footer-nav" aria-label="Footer navigation">
+                    <div class="footer-column"><h4>Showers</h4><ul><li><a href="showers.html?type=rain">Rain Showers</a></li><li><a href="showers.html?type=handheld">Handheld</a></li><li><a href="showers.html?type=body">Body Jets</a></li><li><a href="showers.html?type=digital">Smart Showers</a></li><li><a href="showers.html?type=combo">Systems</a></li></ul></div>
+                    <div class="footer-column"><h4>Collections</h4><ul><li><a href="collection-detail.html?id=rain-symphony">Rain Symphony</a></li><li><a href="collection-detail.html?id=cascade">Cascade</a></li><li><a href="collection-detail.html?id=precision">Precision</a></li><li><a href="collection-detail.html?id=heritage">Heritage</a></li></ul></div>
+                    <div class="footer-column"><h4>Support</h4><ul><li><a href="contact.html">Contact Us</a></li><li><a href="faq.html">FAQs</a></li><li><a href="warranty.html">Warranty</a></li><li><a href="installation.html">Installation Guides</a></li></ul></div>
+                    <div class="footer-column"><h4>Company</h4><ul><li><a href="about.html">Our Story</a></li><li><a href="sustainability.html">Sustainability</a></li><li><a href="careers.html">Careers</a></li><li><a href="dealers.html">Become a Dealer</a></li></ul></div>
+                </nav>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2025 Hindware Premium. All rights reserved.</p>
+                <div class="footer-legal"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="cookies.html">Cookies</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg></button>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/showers.js"></script>
+</body>
+</html>

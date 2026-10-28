@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hindware Premium Bath Textiles - Luxury Egyptian cotton towels, bamboo silk robes, memory foam bath mats, and premium bath accessories. Experience cloud-like softness.">
+    <title>Bath Textiles | Hindware Premium</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/animations.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo" aria-label="Hindware Premium Home">
+                <svg class="logo-icon" viewBox="0 0 60 60" aria-hidden="true">
+                    <path d="M30 5L10 20v20l20 15 20-15V20L30 5zm0 5.5L46 17.5V35l-16 12-16-12V17.5L30 10.5z" fill="none" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="30" cy="30" r="6" fill="currentColor"/>
+                </svg>
+                <span class="logo-text">Hindware <span class="logo-premium">Premium</span></span>
+            </a>
+            
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-links">
+                    <li><a href="../index.html" class="nav-link" data-page="home">Home</a></li>
+                    <li><a href="showers.html" class="nav-link" data-page="showers">Showers</a></li>
+                    <li><a href="collections.html" class="nav-link" data-page="collections">Collections</a></li>
+                    <li><a href="textiles.html" class="nav-link active" data-page="textiles">Bath Textiles</a></li>
+                    <li><a href="inspiration.html" class="nav-link" data-page="inspiration">Inspiration</a></li>
+                    <li><a href="contact.html" class="nav-link" data-page="contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav-actions">
+                <a href="catalog.html" class="btn btn-outline">Catalog</a>
+                <a href="contact.html" class="btn btn-primary">Book Consultation</a>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <!-- Page Hero -->
+        <header class="page-hero">
+            <div class="page-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1920&q=80')"></div>
+            <div class="page-hero-overlay"></div>
+            <div class="container">
+                <div class="page-hero-content reveal">
+                    <span class="page-hero-tag">Bath Textiles</span>
+                    <h1 class="page-hero-title">Indulge in Softness</h1>
+                    <p class="page-hero-subtitle">Premium towels, robes, and accessories crafted from the finest fibers for your daily ritual</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Category Navigation -->
+        <nav class="category-nav" aria-label="Textile categories">
+            <div class="container">
+                <div class="category-tabs" role="tablist">
+                    <button class="category-tab active" role="tab" aria-selected="true" data-category="all">All Textiles</button>
+                    <button class="category-tab" role="tab" aria-selected="false" data-category="towels" id="towels">Bath Towels</button>
+                    <button class="category-tab" role="tab" aria-selected="false" data-category="robes" id="robes">Bath Robes</button>
+                    <button class="category-tab" role="tab" aria-selected="false" data-category="mats" id="mats">Bath Mats</button>
+                    <button class="category-tab" role="tab" aria-selected="false" data-category="accessories" id="accessories">Accessories</button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Featured Collection: Egyptian Cotton -->
+        <section class="featured-textile" aria-labelledby="egyptian-title">
+            <div class="container">
+                <div class="featured-layout">
+                    <div class="featured-media reveal">
+                        <div class="main-image">
+                            <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1000&q=80" alt="Royal Egyptian Cotton Collection" id="featured-main">
+                        </div>
+                        <div class="media-thumbnails">
+                            <button class="thumb active" data-src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1000&q=80" aria-label="Egyptian cotton towels stacked"><img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=200&q=80" alt=""></button>
+                            <button class="thumb" data-src="https://images.unsplash.com/photo-1584417512347-57e05d16d528?w=1000&q=80" aria-label="Egyptian cotton bath sheet"><img src="https://images.unsplash.com/photo-1584417512347-57e05d16d528?w=200&q=80" alt=""></button>
+                            <button class="thumb" data-src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1000&q=80" aria-label="Egyptian cotton close up"><img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=200&q=80" alt=""></button>
+                        </div>
+                        <div class="featured-badges">
+                            <span class="badge badge-gold">700 GSM</span>
+                            <span class="badge badge-green">OEKO-TEX®</span>
+                            <span class="badge badge-blue">100% Egyptian Cotton</span>
+                        </div>
+                    </div>
+                    <div class="featured-content reveal">
+                        <span class="collection-badge">Royal Collection</span>
+                        <h2 id="egyptian-title" class="featured-title">Royal Egyptian Cotton</h2>
+                        <p class="featured-tagline">Cloud-like softness that improves with every wash</p>
+                        <div class="featured-description">
+                            <p>Experience the pinnacle of bath luxury with our Royal Egyptian Cotton collection. Sourced from the Nile Delta, these extra-long staple fibers create yarns of exceptional strength and softness. At 700 GSM, our towels offer substantial weight and absorbency without feeling heavy.</p>
+                            <p>Unlike conventional towels that degrade over time, Egyptian cotton becomes softer and more absorbent with each wash. The long fibers resist pilling and maintain their plush texture for years.</p>
+                        </div>
+                        <div class="featured-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">Weight</span>
+                                <span class="spec-value">700 GSM</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Fiber</span>
+                                <span class="spec-value">Extra-Long Staple</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Certification</span>
+                                <span class="spec-value">OEKO-TEX® Standard 100</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Origin</span>
+                                <span class="spec-value">Nile Delta, Egypt</span>
+                            </div>
+                        </div>
+                        <div class="featured-colors">
+                            <span class="color-label">Available Colors:</span>
+                            <div class="color-swatches">
+                                <button class="color-swatch active" style="background: #ffffff; border-color: #ddd" data-color="white" aria-label="White"></button>
+                                <button class="color-swatch" style="background: #f5f0e8" data-color="ivory" aria-label="Ivory"></button>
+                                <button class="color-swatch" style="background: #e8e0d8" data-color="pearl" aria-label="Pearl"></button>
+                                <button class="color-swatch" style="background: #d4c8b8" data-color="sand" aria-label="Sand"></button>
+                                <button class="color-swatch" style="background: #b8a898" data-color="taupe" aria-label="Taupe"></button>
+                                <button class="color-swatch" style="background: #8b7d6b" data-color="charcoal" aria-label="Charcoal"></button>
+                                <button class="color-swatch" style="background: #2d2d2d" data-color="graphite" aria-label="Graphite"></button>
+                                <button class="color-swatch" style="background: #1a1a2e" data-color="midnight" aria-label="Midnight"></button>
+                            </div>
+                        </div>
+                        <div class="featured-actions">
+                            <a href="#towels" class="btn btn-primary">Shop Egyptian Cotton</a>
+                            <a href="contact.html" class="btn btn-outline">Request Swatches</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Categories -->
+        <section class="textile-categories" aria-labelledby="categories-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="categories-title" class="section-title reveal">Shop by Category</h2>
+                </header>
+
+                <!-- Bath Towels -->
+                <div class="category-section" id="towels-section" data-category="towels">
+                    <div class="category-header reveal">
+                        <div class="category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                        </div>
+                        <div>
+                            <h3>Bath Towels & Sheets</h3>
+                            <p>From everyday luxury to the ultimate indulgence</p>
+                        </div>
+                        <a href="#towels" class="category-link">View All <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                    </div>
+                    <div class="product-grid" id="towels-grid">
+                        <!-- Rendered by JS -->
+                    </div>
+                </div>
+
+                <!-- Bath Robes -->
+                <div class="category-section" id="robes-section" data-category="robes">
+                    <div class="category-header reveal">
+                        <div class="category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                        </div>
+                        <div>
+                            <h3>Bath Robes</h3>
+                            <p>Wrap yourself in sustainable luxury</p>
+                        </div>
+                        <a href="#robes" class="category-link">View All <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                    </div>
+                    <div class="product-grid" id="robes-grid">
+                        <!-- Rendered by JS -->
+                    </div>
+                </div>
+
+                <!-- Bath Mats -->
+                <div class="category-section" id="mats-section" data-category="mats">
+                    <div class="category-header reveal">
+                        <div class="category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                        </div>
+                        <div>
+                            <h3>Bath Mats & Rugs</h3>
+                            <p>Cloud-soft steps with quick-dry technology</p>
+                        </div>
+                        <a href="#mats" class="category-link">View All <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                    </div>
+                    <div class="product-grid" id="mats-grid">
+                        <!-- Rendered by JS -->
+                    </div>
+                </div>
+
+                <!-- Accessories -->
+                <div class="category-section" id="accessories-section" data-category="accessories">
+                    <div class="category-header reveal">
+                        <div class="category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                        </div>
+                        <div>
+                            <h3>Bath Accessories</h3>
+                            <p>Complete your ritual with thoughtful details</p>
+                        </div>
+                        <a href="#accessories" class="category-link">View All <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                    </div>
+                    <div class="product-grid" id="accessories-grid">
+                        <!-- Rendered by JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Material Guide -->
+        <section class="material-guide" aria-labelledby="material-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="material-title" class="section-title reveal">Material Guide</h2>
+                    <p class="section-subtitle reveal">Understanding the fibers that make our textiles exceptional</p>
+                </header>
+                <div class="material-grid">
+                    <article class="material-card reveal">
+                        <div class="material-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        </div>
+                        <h3>Egyptian Cotton</h3>
+                        <p class="material-grade">Extra-Long Staple (ELS)</p>
+                        <ul class="material-benefits">
+                            <li>Longest, strongest cotton fibers</li>
+                            <li>Exceptional softness & durability</li>
+                            <li>Becomes softer with each wash</li>
+                            <li>Natural breathability</li>
+                            <li>Resists pilling & linting</li>
+                        </ul>
+                        <span class="material-use">Best for: Premium towels, bath sheets</span>
+                    </article>
+                    <article class="material-card reveal">
+                        <div class="material-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 12l2 2 4-4"/></svg>
+                        </div>
+                        <h3>Bamboo Viscose</h3>
+                        <p class="material-grade">Sustainable Luxury</p>
+                        <ul class="material-benefits">
+                            <li>Naturally antimicrobial</li>
+                            <li>Hypoallergenic & gentle</li>
+                            <li>Moisture-wicking & thermoregulating</li>
+                            <li>Silk-like drape & sheen</li>
+                            <li>Eco-friendly cultivation</li>
+                        </ul>
+                        <span class="material-use">Best for: Robes, sensitive skin</span>
+                    </article>
+                    <article class="material-card reveal">
+                        <div class="material-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                        </div>
+                        <h3>Memory Foam</h3>
+                        <p class="material-grade">Advanced Comfort</p>
+                        <ul class="material-benefits">
+                            <li>Pressure-relieving cushioning</li>
+                            <li>Quick-dry open-cell structure</li>
+                            <li>Anti-slip safety backing</li>
+                            <li>Machine washable</li>
+                            <li>Retains shape for years</li>
+                        </ul>
+                        <span class="material-use">Best for: Bath mats, kneeling pads</span>
+                    </article>
+                    <article class="material-card reveal">
+                        <div class="material-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+                        </div>
+                        <h3>Turkish Cotton</h3>
+                        <p class="material-grade">Premium Long Staple</p>
+                        <ul class="material-benefits">
+                            <li>Long staple fibers</li>
+                            <li>Lightweight yet absorbent</li>
+                            <li>Quick-drying</li>
+                            <li>Gets softer over time</li>
+                            <li>Classic towel texture</li>
+                        </ul>
+                        <span class="material-use">Best for: Everyday towels, gym/spa</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Care Guide -->
+        <section class="care-guide" aria-labelledby="care-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="care-title" class="section-title reveal">Care Guide</h2>
+                    <p class="section-subtitle reveal">Keep your textiles looking and feeling new for years</p>
+                </header>
+                <div class="care-grid">
+                    <article class="care-card reveal">
+                        <div class="care-number">01</div>
+                        <h3>Wash Before First Use</h3>
+                        <p>Initial wash removes finishing agents and maximizes absorbency. Wash separately in warm water.</p>
+                    </article>
+                    <article class="care-card reveal">
+                        <div class="care-number">02</div>
+                        <h3>Use Mild Detergent</h3>
+                        <p>Avoid bleach, fabric softeners, and harsh chemicals. They coat fibers and reduce absorbency.</p>
+                    </article>
+                    <article class="care-card reveal">
+                        <div class="care-number">03</div>
+                        <h3>Tumble Dry Low</h3>
+                        <p>Low heat preserves fiber integrity. Remove promptly to prevent wrinkles. Air dry for maximum longevity.</p>
+                    </article>
+                    <article class="care-card reveal">
+                        <div class="care-number">04</div>
+                        <h3>Skip Fabric Softener</h3>
+                        <p>Softeners create a waxy buildup. Add ½ cup white vinegar to rinse cycle monthly to restore softness.</p>
+                    </article>
+                    <article class="care-card reveal">
+                        <div class="care-number">05</div>
+                        <h3>Store Properly</h3>
+                        <p>Ensure completely dry before storing. Avoid plastic bags. Cedar blocks naturally repel moisture and pests.</p>
+                    </article>
+                    <article class="care-card reveal">
+                        <div class="care-number">06</div>
+                        <h3>Rotate Your Set</h3>
+                        <p>Use 3 sets in rotation: one in use, one in wash, one in storage. Extends life significantly.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content reveal">
+                    <h2>Design Your Perfect Bath Suite</h2>
+                    <p>Coordinate your shower, textiles, and accessories. Our design consultants can help create a cohesive look.</p>
+                    <a href="contact.html" class="btn btn-primary btn-large">Book Design Consultation</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../index.html" class="footer-logo" aria-label="Hindware Premium Home">
+                        <svg class="logo-icon" viewBox="0 0 60 60" aria-hidden="true">
+                            <path d="M30 5L10 20v20l20 15 20-15V20L30 5zm0 5.5L46 17.5V35l-16 12-16-12V17.5L30 10.5z" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="30" cy="30" r="6" fill="currentColor"/>
+                        </svg>
+                        <span class="logo-text">Hindware <span class="logo-premium">Premium</span></span>
+                    </a>
+                    <p class="footer-tagline">Crafting extraordinary bathing experiences since 1999.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                        <a href="#" class="social-link" aria-label="Pinterest"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="17" x2="12" y2="22"/><path d="M5 17h14v-2.5a2.5 2.5 0 0 0-5 0V17"/><circle cx="12" cy="12" r="3"/></svg></a>
+                        <a href="#" class="social-link" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h20a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/><polygon points="23 7 16 12 23 17 23 7"/></svg></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    </div>
+                </div>
+                <nav class="footer-nav" aria-label="Footer navigation">
+                    <div class="footer-column"><h4>Showers</h4><ul><li><a href="showers.html?type=rain">Rain Showers</a></li><li><a href="showers.html?type=handheld">Handheld</a></li><li><a href="showers.html?type=body">Body Jets</a></li><li><a href="showers.html?type=digital">Smart Showers</a></li><li><a href="showers.html?type=combo">Systems</a></li></ul></div>
+                    <div class="footer-column"><h4>Collections</h4><ul><li><a href="collections.html#rain-symphony">Rain Symphony</a></li><li><a href="collections.html#cascade">Cascade</a></li><li><a href="collections.html#precision">Precision</a></li><li><a href="collections.html#heritage">Heritage</a></li></ul></div>
+                    <div class="footer-column"><h4>Bath Textiles</h4><ul><li><a href="#towels">Bath Towels</a></li><li><a href="#robes">Bath Robes</a></li><li><a href="#mats">Bath Mats</a></li><li><a href="#accessories">Accessories</a></li></ul></div>
+                    <div class="footer-column"><h4>Support</h4><ul><li><a href="contact.html">Contact Us</a></li><li><a href="faq.html">FAQs</a></li><li><a href="warranty.html">Warranty</a></li><li><a href="care.html">Care Guide</a></li></ul></div>
+                    <div class="footer-column"><h4>Company</h4><ul><li><a href="about.html">Our Story</a></li><li><a href="sustainability.html">Sustainability</a></li><li><a href="careers.html">Careers</a></li><li><a href="dealers.html">Become a Dealer</a></li></ul></div>
+                </nav>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2025 Hindware Premium. All rights reserved.</p>
+                <div class="footer-legal"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="cookies.html">Cookies</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg></button>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/textiles.js"></script>
+</body>
+</html>
